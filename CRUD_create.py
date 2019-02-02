@@ -39,3 +39,4 @@ cheesepizza = MenuItem(name = "Cheese Pizza",
 session.add(cheesepizza)
 session.commit()
 session.query(MenuItem).all()
+
